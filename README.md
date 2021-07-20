@@ -25,7 +25,7 @@ witch gives
   -o specify an output file
   -v verbose mode, print each step of the execution
 </pre>
-for lunching the programe type
+for launching the programe type
 <pre>
 python3 main.py -i the_input_file
 </pre>
