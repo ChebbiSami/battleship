@@ -27,7 +27,7 @@ witch gives
 </pre>
 for lunching the programe type
 <pre>
-python3 main.py -i the_input_file -o output_4.txt -v
+python3 main.py -i the_input_file
 </pre>
 Don't forget to replace "the_input_file" by a file that fit the requirement
 The first line contains the size of the board. The second line contains a list of
