@@ -7,11 +7,6 @@ import pytest
 from process_instructions import process_instructions
 from classes.ship import Ship
 
-#(ships_list, order_list, battle_filed, map_size)
-#MOVE_FORWARD
-#TURN_RIGHT
-#TURN_LEFT
-#END_OF_INSTRUCTION
 def test_ship_same_location(capsys):
     """this test behavior of the function in cases
     orders lids ship on the location of other one"""
