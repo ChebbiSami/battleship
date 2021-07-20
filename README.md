@@ -29,11 +29,11 @@ for lunching the programe type
 <pre>
 python3 main.py -i the_input_file
 </pre>
-Don't forget to replace "the_input_file" by a file that fit the requirement.
-The first line contains the size of the board. The second line contains a list of
-coordinate-and-orientation tuples (initial position of the ships). Any subsequent lines are
-operations: shoot operations (simply coordinates) and move operations (coordinates to specify
-the ship to be considered and a sequence of 'L' (rotate left), 'R' (rotate right) and 'M' (move)).
+Don't forget to replace "the_input_file" by a file that fit the requirement. <br/>
+The first line contains the size of the board. <br/>
+The second line contains a list of coordinate-and-orientation tuples (initial position of the ships). <br/>
+Any subsequent lines are operations: shoot operations (simply coordinates) and move operations (coordinates to specify
+the ship to be considered and a sequence of 'L' (rotate left), 'R' (rotate right) and 'M' (move)). <br/>
 Assume the bottom-left cell to be the origin (0, 0).
 
 ** EXAMPLE **
