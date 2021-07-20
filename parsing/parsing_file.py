@@ -24,7 +24,7 @@ def extracting_map_size(line):
     return int_size, matrix
 
 
-def parse_file(input_file):
+def parse_file(input_file, verbose):
     '''this function parse the input file'''
     map_size = 0
     ships_list =[]
@@ -36,9 +36,15 @@ def parse_file(input_file):
 
     for ind,content in enumerate(contents):
         if ind == 0:
-            map_size, map = extracting_map_size(content)
+            if verbose:
+                print("++ creating map")
+            map_size, battle_filed = extracting_map_size(content)
         if ind == 1:
-            ships_list = extracting_ships(content, map_size, map)
+            if verbose:
+                print("++ creating ships")
+            ships_list = extracting_ships(content, map_size, battle_filed)
         if ind >= 2:
+            if verbose:
+                print("++ extracting instructions of line ", ind + 1)
             order_list = extracting_orders(content, map_size, order_list, ships_list)
-    return map, map_size, ships_list, order_list
+    return battle_filed, map_size, ships_list, order_list
