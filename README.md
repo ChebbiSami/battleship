@@ -29,7 +29,7 @@ for lunching the programe type
 <pre>
 python3 main.py -i the_input_file
 </pre>
-Don't forget to replace "the_input_file" by a file that fit the requirement
+Don't forget to replace "the_input_file" by a file that fit the requirement.
 The first line contains the size of the board. The second line contains a list of
 coordinate-and-orientation tuples (initial position of the ships). Any subsequent lines are
 operations: shoot operations (simply coordinates) and move operations (coordinates to specify
